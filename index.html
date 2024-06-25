@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="header" id="header">
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+                <h2 class="headerh2 text-5xl font-signature ml-2">Md Fardeen Akbar</h2>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 hidden md:flex ">
+                    <li
+                        class="nav-item active px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+                        <a class="nav-link" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li
+                        class="nav-item px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li
+                        class="nav-item px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+                        <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li
+                        class="nav-item px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+                        <a class="nav-link" aria-current="page" href="#experience">Experience</a>
+                    </li>
+                    <li
+                        class="nav-item px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <div class="start" id="start">
+            <h1>Front End <div>Software</div>
+                <div>Engineer</div>
+            </h1>
+            <p>Welcome to my JavaScript portfolio! As a web developer, I have a strong passion for creating dynamic and
+                user-friendly web applications by leveraging the latest technologies and frameworks. My area of
+                expertise lies in the development of full-stack solutions, which involves front-end design, back-end
+                implementation, and database management. I am committed to constantly learning new techniques and tools
+                to enhance my skills and deliver the best possible solutions to clients. I am thrilled to work on
+                innovative and impactful projects, and I welcome any opportunities to explore how I can contribute.
+                Thank you for taking the time to browse my portfolio!</p>
+
+            <button class="button-64" onclick="scrollToSection('portfolio')">
+                <span>
+                    Portfolio
+                    <svg class="arrow" stroke="currentColor" fill="currentColor" stroke-width="0" width="25" height="25"
+                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false"
+                        aria-hidden="true">
+                        <path fill="none" d="M0 0h24v24H0V0z"></path>
+                        <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                    </svg>
+
+                </span>
+            </button>
+        </div>
+        <img src="images/img.jpg" alt="corrupt" width="400" height="500">
+    </main>
+
+    <div class="about" id="about">
+        <h2>About</h2>
+        <hr id="abouthr">
+        <p>My journey as a developer began with a passion for web design, which eventually evolved into a love for
+            coding and problem-solving. With an extensive range of projects under my belt, I have acquired substantial
+            expertise in working with popular frameworks like React.js, Next.js, and Redux, as well as utilizing Node.js
+            for building server-side applications. My development arsenal also includes several libraries and styling
+            tools like Axios for HTTP clients and CSS preprocessors via TailwindCSS, to create dynamic, interactive, and
+            responsive component-based applications. In addition, I have honed my version control skills by using
+            GitHub, which helps me effectively manage my codebase. Furthemore, I have employed APIs, which enable
+            seamless integration with external data sources and services, to make my applications even more
+            interactive.<br>
+            "As a dedicated and enthusiastic learner, I am continually driven to enhance and broaden my expertise in
+            JavaScript development. My focus encompasses various aspects of front-end software engineering, including
+            frameworks, object-oriented programming, UI/UX development, and DOM manipulation. Through my relentless
+            pursuit of problem-solving and unwavering commitment to constant improvement, I have developed the
+            resilience and dedication required to overcome any obstacle. This, coupled with my passion for staying on
+            the cutting edge of technology, sets me apart as an exceptional problem solver."</p>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <hr id="portfoliohr">
+        <p>I have attached examples below of my previous work!</p>
+        <div class="cards">
+            <div class="card">
+                <img src="images/portfolio1.png" alt="Avatar">
+                <div class="container">
+                    <a id="cardb" href="/">Demo</a>
+                    <p id="cardp">Modern business app built with React and TailwindCSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio2.png" alt="Avatar">
+                <div class="container">
+                    <a id="cardb" href="/">Demo</a>
+                    <p id="cardp">Modern business app built with React and TailwindCSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio3.png" alt="Avatar">
+                <div class="container">
+                    <a id="cardb" href="/">Demo</a>
+                    <p id="cardp">Modern business app built with React and TailwindCSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio4.png" alt="Avatar">
+                <div class="container">
+                    <a id="cardb" href="/">Demo</a>
+                    <p id="cardp">Modern business app built with React and TailwindCSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio5.png" alt="Avatar">
+                <div class="container">
+                    <a id="cardb" href="/">Demo</a>
+                    <p id="cardp">Modern business app built with React and TailwindCSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio6.png" alt="Avatar">
+                <div class="container">
+                    <a id="cardb" href="/">Demo</a>
+                    <p id="cardp">Modern business app built with React and TailwindCSS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="experience" id="experience">
+        <h2>Experience</h2>
+        <hr id="exphr">
+        <p>I have worked with multiple technologies including, but not limited to</p>
+        <div class="expcards">
+            <div class="expcard">
+                <img src="images/exp1.png" alt="html">
+                <div class="container">
+                    <p id="cardp">HTML</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp2.png" alt="css">
+                <div class="container">
+                    <p id="cardp">CSS</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp3.png" alt="js">
+                <div class="container">
+                    <p id="cardp">JavaScript</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp4.png" alt="react">
+                <div class="container">
+                    <p id="cardp">React</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp5.png" alt="git">
+                <div class="container">
+                    <p id="cardp">GitHub</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp6.png" alt="nodejs">
+                <div class="container">
+                    <p id="cardp">NodeJS</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp7.png" alt="nextjs">
+                <div class="container">
+                    <p id="cardp">NextJS</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp8.png" alt="Tailwind">
+                <div class="container">
+                    <p id="cardp">Tailwind</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp9.png" alt="redux">
+                <div class="container">
+                    <p id="cardp">Redux</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp10.png" alt="vite">
+                <div class="container">
+                    <p id="cardp">Vite</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp11.png" alt="chatgpt">
+                <div class="container">
+                    <p id="cardp">ChatGPT</p>
+                </div>
+            </div>
+            <div class="expcard">
+                <img src="images/exp12.png" alt="api">
+                <div class="container">
+                    <p id="cardp">Application Programming Interface</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <hr id="contacthr">
+        <p>You may contact me by submitting the form below:</p>
+        <br>
+        <form action="send_email.php" method="post" id="contactfm">
+            <input type="text" id="inpname" name="name" placeholder="Enter your name" required><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+            <textarea id="message" name="message" rows="9" placeholder="Enter your message"></textarea>
+            <button class="button-79" role="button">Let's talk</button>
+        </form>
+    </div>
+
+    <div class="hoversq">
+        <a href="https://www.linkedin.com/in/fardeen-akbar-418706216/" target="_blank">
+        <div class="linkedin" id="links">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="#ffffff" d="M22.23 0H1.77A1.77 1.77 0 000 1.77v20.46A1.77 1.77 0 001.77 24h20.46A1.77 1.77 0 0024 22.23V1.77A1.77 1.77 0 0022.23 0zM7.12 20.48H3.57V9h3.55zM5.34 7.48a2.05 2.05 0 110-4.1 2.05 2.05 0 010 4.1zm15.32 13H17.1v-5.55c0-1.33-.03-3.05-1.85-3.05-1.85 0-2.14 1.45-2.14 2.95v5.65H9.57V9h3.41v1.57h.05a3.73 3.73 0 013.35-1.85c3.58 0 4.24 2.35 4.24 5.42z"/>
+            </svg>
+        </div>
+    </a>
+    <a href="https://github.com/Fardeen4567" target="_blank">
+        <div class="github" id="links">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="#ffffff" d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577 0-.285-.012-1.23-.012-2.242-3.338.727-4.042-1.35-4.042-1.35-.546-1.387-1.335-1.757-1.335-1.757-1.09-.745.083-.73.083-.73 1.204.084 1.836 1.23 1.836 1.23 1.07 1.832 2.807 1.303 3.492.997.107-.775.42-1.303.763-1.603-2.665-.3-5.466-1.33-5.466-5.93 0-1.312.468-2.382 1.236-3.22-.125-.302-.536-1.52.117-3.166 0 0 1.008-.322 3.3 1.23a11.49 11.49 0 016 0c2.29-1.552 3.297-1.23 3.297-1.23.654 1.647.243 2.865.12 3.166.77.838 1.236 1.908 1.236 3.22 0 4.61-2.804 5.625-5.475 5.92.431.37.824 1.103.824 2.223 0 1.604-.014 2.896-.014 3.293 0 .32.192.693.8.575C20.565 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+        </div>
+    </a>
+    <a href="mailto:fardeenakbar456@gmail.com">
+        <div class="mail" id="links">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="#ffffff" d="M12 12.713L23.952 5.41A1 1 0 0023 4H1a1 1 0 00-.952 1.41L12 12.713zM12 14.527L0 7.035v12.04a1 1 0 001 1h22a1 1 0 001-1V7.035l-12 7.492z"/>
+            </svg>
+        </div>
+    </a>
+    <a href="files/Resume-MdFardeen-Akbar.pdf" download="resume.pdf">
+        <div class="resume" id="links">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="#ffffff" d="M20 2H4a2 2 0 00-2 2v16a2 2 0 002 2h16a2 2 0 002-2V4a2 2 0 00-2-2zm-5 14H9v-2h6zm3-4H6v-2h12zm0-4H6V6h12z"/>
+            </svg>
+        </div>
+    </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

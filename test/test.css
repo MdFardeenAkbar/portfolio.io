@@ -1,0 +1,88 @@
+.hoversq {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#links {
+  width: 55px;
+  height: 55px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  margin: 0px 0;
+  transition: width 0.3s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#links:hover {
+  width: 150px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.linkedin {
+  border-radius: 0px 10px 0 0;
+}
+
+.github, .mail, .resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  border-radius: 0px 0 10px 0;
+}
+
+.linkedin::after,
+.github::after,
+.mail::after,
+.resume::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 65px;
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+  padding-left: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.linkedin:hover::after,
+.github:hover::after,
+.mail:hover::after,
+.resume:hover::after {
+  opacity: 1;
+}
+
+.linkedin::after {
+  content: 'LinkedIn';
+}
+
+.github::after {
+  content: 'GitHub';
+}
+
+.mail::after {
+  content: 'Email';
+}
+
+.resume::after {
+  content: 'Resume';
+}
+
+img, svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+#links:hover img, #links:hover svg {
+  position: absolute;
+  left: 10px;
+}
